@@ -280,3 +280,38 @@ button {
     font-size: 1em;
     color: #666;
 }
+
+@media screen and (max-width: 480px) {
+    .card,
+    .retro-performance-card {
+        flex: 1 1 100%;
+        max-width: 100%;
+    }
+    .heading {
+        font-size: 2rem;
+    }
+    .btn {
+        font-size: 0.9rem;
+    }
+    .top-h {
+        font-size: 1.5rem;
+    }
+    .top-p {
+        font-size: 1rem;
+    }
+    .rp-heading {
+        font-size: 1.5rem;
+    }
+    .rpc-top-heading {
+        font-size: 1.2rem;
+    }
+    .rpc-top-sub-heading {
+        font-size: 1rem;
+    }
+    .abtdcr-heading {
+        font-size: 1.5rem;
+    }
+    .abtdcr-sub-heading {
+        font-size: 1.2rem;
+    }
+}
